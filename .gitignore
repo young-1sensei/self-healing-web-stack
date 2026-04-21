@@ -1,0 +1,23 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+.terraform.lock.hcl
+
+# Credentials & Keys
+*.pem
+.aws/
+.env
+
+# Ansible
+*.retry
+ansible/inventory/aws_ec2.yml # Dynamic inventory can contain env-specific info
+ansible/ansible.cfg # Often contains paths to private keys
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

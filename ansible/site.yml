@@ -1,0 +1,8 @@
+---
+- name: Configure Web Servers
+  hosts: webservers
+  gather_facts: yes
+  roles:
+    - role_common
+    - role_nginx
+    - role_app

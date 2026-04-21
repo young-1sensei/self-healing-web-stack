@@ -1,0 +1,14 @@
+---
+- name: Update all packages
+  dnf:
+    name: "*"
+    state: latest
+  become: yes
+
+- name: Install basic tools
+  dnf:
+    name:
+      - curl-minimal
+      - htop
+    state: present
+  become: yes
