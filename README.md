@@ -50,7 +50,7 @@ graph TD
 ### Prerequisites
 - AWS CLI configured with appropriate permissions.
 - Terraform installed locally.
-- An SSH Key Pair (`my-anisible-terraform-key.pem`) available in the project root.
+- An SSH Key Pair available in your AWS account.
 
 ### Deployment
 
